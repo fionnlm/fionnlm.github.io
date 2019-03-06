@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.Logo{
+    width: 30%;
+    margin-left: 35%;
+}
+nav{
+    border-bottom: 1px solid grey;
+}
+.navbar{
+    margin-left: 90%;
+    font-size: 1.5vw;
+    list-style: none;
+}
+.BL{
+    width: 30%;
+    margin-left: 16.9%;
+    margin-right: 2.5%;
+}
+.BR{
+    width: 30%;
+    margin-left: 2.5%;
+    margin-right: 16.9%;
+}
+/*.Main_Button{
+    width: 30%;
+    margin-top: 5.8%;
+}*/
+@media only screen and (max-width: 1250px){
+    .Main_Button{
+        width: 100px;
+    }
+}
