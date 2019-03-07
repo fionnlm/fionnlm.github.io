@@ -1,0 +1,86 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 5%;
+    margin-left: 30%;
+}
+.Heading{
+    font-size: 3vw;
+}
+.Description{
+    font-size: 1vw;
+}
+.Mam_Bar{
+    display: inline-block;
+    background-color: #fb00ff;
+    color: #fb00ff;
+    width: 20%;
+}
+.Uncle_Bar{
+    display: inline-block;
+    background-color: #fb00ff;
+    color: #fb00ff;
+    width: 18%;
+}
+.Add{
+    display: inline-block;
+    font-size: 2vw;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+.Sub{
+    display: inline-block;
+    font-size: 2vw;
+    padding-left: 1.4%;
+    padding-right: 1.4%;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 1250px){
+    .Heading{
+        font-size: 9vw;
+    }
+    .Description{
+        font-size: 2vw;
+    }
+    .Add{
+        font-size: 4vw;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .Sub{
+        font-size: 4vw;
+        padding-left: 2.8%;
+        padding-right: 2.8%;
+    }
+}
+@media only screen and (max-width: 650px){
+    .Heading{
+        font-size: 9vw;
+    }
+    .Description{
+        font-size: 4vw;
+    }
+    .Add{
+        font-size: 8vw;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .Sub{
+        font-size: 8vw;
+        padding-left: 5.8%;
+        padding-right: 5.8%;
+    }
+}
+.ADS{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: 80%;
+    background-color: brown;
+    text-align: center;
+}
